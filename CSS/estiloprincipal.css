@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
+body {
+        background-color: rgb(0, 17, 255);
+        margin-left: 10px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    
+  a {
+        color: rgb(255, 123, 0);
+        
+    }
+
+   a:hover {
+       color: rgb(255, 123, 0);
+       text-decoration:dashed ;
+   } 
+
+    p{
+        border: 2px solid orange;
+        margin: 10px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+    }
+    header{
+        background-color: rgb(255, 123, 0);
+        height: 146px;
+        width: 100%; 
+        margin: 0px;
+        padding: 0px;   
+       
+        
+    }
+    nav{
+        background-color: rgb(255, 123, 0);
+        margin: 0px;
+        height: 50px;
+        width: 100%;
+    }
+    nav ul{ 
+        color: rgb(0, 0, 0);
+        display:inline-flex;       
+        margin: 0px;
+        padding: 0px;
+
+    }
+    nav ul li{
+        width: 170px;
+        height: 18px;
+        background-color: rgba(0, 0, 255, 0.973);
+        margin: 0px;   
+        padding: 5px;
+        border-radius: 6px; 
+
+    }
+
+   
+    h1, h2  {
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(0, 0, 0); 
+    }
+
+    body, p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0); 
+    }
+
+    li {
+  font-family: 'Roboto', sans-serif;
+  color: orange; 
+  text-align: left;     
+  max-width: 320px;     /* ancho máximo del bloque */
+  margin: 20px ;    /* centra el bloque entero */
+  list-style:circle;     
+}
+
+li img {
+  display: block;       /* imagen ocupa toda la línea */
+  margin: 0 auto 8px;   /* centrada con espacio abajo */
+}
+    
+
+    img{
+        margin: 10px;
+        padding: 10px;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 8px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    }
+    img:hover{
+        box-shadow: 2px 2px 3px rrgba(206, 141, 1, 0.5)
+    }
+
+   
+.contacto-page {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.contacto-tit {
+  color: rgb(255, 123, 0);
+  margin: 12px 0 20px;
+  font-size: 2rem;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.form-card {
+  width: 440px;
+  margin: 10px auto 16px;
+  background: #111; 
+  border: 2px solid rgb(255, 123, 0); 
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.5);
+  display: grid;
+  gap: 10px;
+}
+
+.form-card label {
+  color: rgb(255, 123, 0);
+  font-weight: 700;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  background: black; 
+  color:white;
+  border: 2px solid rgba(0,0,255,0.9); 
+  border-radius: 6px;
+  padding: 10px;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.form-card input:focus,
+.form-card textarea:focus {
+  border-color: rgb(255, 123, 0);
+  box-shadow: 0 0 6px rgba(255,123,0,.8);
+}
+
+.form-card button {
+  background: rgba(0, 0, 255, 0.9);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  width: fit-content;
+  transition: filter .2s, transform .1s;
+}
+
+.form-card button:hover {
+  filter: brightness(1.2);
+}
+
+.form-card button:active {
+  transform: translateY(1px);
+}
+
+.contacto-ayuda {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  font-style: italic;
+  margin-top: 12px;
+}
+
+
+footer {
+  background: #000;
+  color: rgb(255, 123, 0);
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+    
+    
