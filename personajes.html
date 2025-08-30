@@ -7,44 +7,99 @@
   <link rel="stylesheet" href="CSS/estiloprincipal.css">
 </head>
 <body>
-
   <header class="site-header">
-  <div class="container">
-    <h1 class="site-title">MI SERIE PREFERIDA</h1>
-    <nav>
-      <ul class="nav">
-        <li><a href="index.html" class="activo">INICIO</a></li>
-        <li><a href="capitulos.html">CAPÍTULOS</a></li>
-        <li><a href="personajes.html">PERSONAJES</a></li>
-        <li><a href="contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    <div class="container">
+      <h1 class="site-title">MI SERIE PREFERIDA</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="capitulos.html">CAPÍTULOS</a></li>
+          <li><a href="personajes.html" class="activo">PERSONAJES</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <main style="color:rgb(0, 0, 0);">
-    <p>Dragon Ball Z es conocido por su elenco icónico de personajes que han dejado una huella imborrable en la cultura popular.</p>
-    <p>La serie cuenta con una amplia gama de personajes, cada uno con habilidades y personalidades únicas.</p>
-    <p>En esta sección, te presentamos a algunos de los personajes principales de Dragon Ball Z:</p>
+  <main>
+   
+    <section>
+      <p>Dragon Ball Z es conocido por su elenco icónico de héroes y villanos que marcaron la infancia de millones de personas.</p>
+      <p>Cada personaje tiene habilidades únicas, transformaciones sorprendentes y una personalidad que lo hace inolvidable.</p>
+    </section>
 
-    <ul>
-        <li>
-        <img src="IMG/foto-personajes.jpg" alt=" personajes" width="400" height="300">
-        Principales personajes de Dragon Ball Z
-        </li>
-      <li>   
-        <img src="IMG/foto-goku.jpg" alt="Goku" width="300" height="400">
-        Goku: El protagonista principal, un guerrero Saiyan con un corazón puro.
+    
+    <ul class="grid-cards">
+      <li class="card">
+        <img src="IMG/foto-goku.jpg" alt="Goku" width="280" height="360">
+        <h3>Goku</h3>
+        <p>Protagonista Saiyan, defensor de la Tierra y maestro del Kamehameha.</p>
       </li>
-      <li>
-        <img src="IMG/foto-vegetta.jpg" alt="Vegeta" width="300" height="400">
-        Vegeta: El príncipe de los Saiyans, rival y aliado de Goku.
+      <li class="card">
+        <img src="IMG/foto-vegetta.jpg" alt="Vegeta" width="280" height="360">
+        <h3>Vegeta</h3>
+        <p>Príncipe de los Saiyans, orgulloso y rival eterno de Goku.</p>
       </li>
-      <li>
-        <img src="IMG/foto-gohan.jpeg" alt="Gohan" width="300" height="400">
-        Gohan: El hijo de Goku, un guerrero talentoso.
+      <li class="card">
+        <img src="IMG/foto-gohan.jpeg" alt="Gohan" width="280" height="360">
+        <h3>Gohan</h3>
+        <p>Hijo de Goku, mezcla de nobleza y gran poder oculto.</p>
+      </li>
+      <li class="card">
+        <img src="IMG/foto-piccolo.webp" alt="Piccolo" width="280" height="360">
+        <h3>Piccolo</h3>
+        <p>Guerrero Namekusei, sabio y mentor de Gohan.</p>
+      </li>
+      <li class="card">
+        <img src="IMG/foto-trunks.webp" alt="Trunks" width="280" height="360">
+        <h3>Trunks</h3>
+        <p>Hijo de Vegeta y Bulma, viaja en el tiempo para salvar al futuro.</p>
       </li>
     </ul>
+
+    <section>
+  <h2>Habilidades y transformaciones</h2>
+  <table class="tabla-personajes">
+    <tr>
+      <th>Personaje</th>
+      <th>Técnica especial</th>
+      <th>Transformaciones</th>
+    </tr>
+    <tr>
+      <td>Goku</td>
+      <td>Kamehameha</td>
+      <td>Super Saiyan 1, 2, 3</td>
+    </tr>
+    <tr>
+      <td>Vegeta</td>
+      <td>Final Flash</td>
+      <td>Super Saiyan, Majin Vegeta</td>
+    </tr>
+    <tr>
+      <td>Gohan</td>
+      <td>Masenko</td>
+      <td>Super Saiyan 1, 2</td>
+    </tr>
+    <tr>
+      <td>Piccolo</td>
+      <td>Makankosappo</td>
+      <td>Fusiones Namekusei</td>
+    </tr>
+    <tr>
+      <td>Trunks</td>
+      <td>Burning Attack</td>
+      <td>Super Saiyan</td>
+    </tr>
+  </table>
+</section>
+
+
+    
+    <div style="text-align:center; margin:20px;">
+      <a class="btn" href="https://dragonball.fandom.com/es/wiki/Personajes_de_Dragon_Ball_Z" target="_blank">
+        Ver lista completa de personajes
+      </a>
+    </div>
   </main>
 
   <footer>
@@ -52,3 +107,4 @@
   </footer>
 </body>
 </html>
+

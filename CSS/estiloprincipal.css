@@ -221,3 +221,107 @@ footer {
   padding: 12px;
   margin-top: 20px;
 }
+
+
+.main-title { color: rgb(255,123,0); margin: 20px 0 10px; }
+.hero {
+  position: relative; 
+  display: flex; gap: 24px; align-items: center; justify-content: center;
+  flex-wrap: wrap; margin: 24px 0;
+}
+.badge {
+  position: absolute; top: -10px; right: -10px;
+  background: #000; color: rgb(255,123,0);
+  border: 2px solid rgb(255,123,0);
+  padding: 6px 10px; border-radius: 8px; font-weight: 700;
+}
+
+
+.btn {
+  background: rgb(255,123,0); color: #111;
+  border: 2px solid #111; border-radius: 8px;
+  padding: 10px 16px; font-weight: 800; text-transform: uppercase;
+  display: inline-block; transition: transform .1s, filter .2s;
+}
+.btn:hover { filter: brightness(1.1); }
+.btn:active { transform: translateY(1px); }
+
+
+.grid-cards {
+  display: flex; flex-wrap: wrap; gap: 20px;
+  justify-content: center; align-items: flex-start; list-style: none; padding: 0;
+}
+.card {
+  background: #111; color: orange;
+  border: 2px solid rgb(255,123,0); border-radius: 12px;
+  width: 300px; text-align: center; padding: 12px;
+}
+.card a { display: inline-block; margin-bottom: 8px; font-weight: 800; }
+
+footer { margin-top: 40px; }
+
+
+.video-embed {
+  position: relative;
+  padding-bottom: 60%; 
+  height: 0;
+  overflow: hidden;
+  border: 2px solid orange;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.3);
+  margin: 20px auto;
+  max-width: 900px;   
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.tabla-personajes {
+  width: 80%;              
+  margin: 20px auto;       
+  border-collapse: collapse;
+  color: orange;
+  background: #111;
+  border: 2px solid rgb(255,123,0);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+}
+
+.tabla-personajes th,
+.tabla-personajes td {
+  border: 1px solid rgb(255,123,0);
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-personajes th {
+  background: rgb(255,123,0);
+  color: #000;
+  font-weight: 800;
+}
+
+.capitulos-intro p { margin: 10px 0 20px; }
+
+.destacado-episode { margin: 14px auto 24px; max-width: 980px; }
+.destacado-wrap {
+  display: flex; gap: 16px; align-items: center; justify-content: center; flex-wrap: wrap;
+}
+.destacado-episode .badge {
+  position: relative; top: 0; right: 0; display: inline-block; margin-bottom: 8px;
+}
+
+.filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0 18px; }
+
+
+.episode-card .episode-desc { margin-top: 6px; min-height: 44px; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.tag {
+  background: #000; color: rgb(255,123,0); border: 1px solid rgb(255,123,0);
+  padding: 2px 8px; border-radius: 999px; font-size: 0.9rem;
+}
+
+.subnav { display: flex; gap: 10px; justify-content: center; margin: 24px 0; }
