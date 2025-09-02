@@ -4,13 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personajes principales Dragon Ball Z</title>
+
+  <meta name="description" content="Personajes de Dragon Ball Z con técnicas y transformaciones.">
+  <meta name="theme-color" content="#E63946">
+  <meta property="og:title" content="DBZ – Personajes">
+  <meta property="og:description" content="Goku, Vegeta, Gohan, Piccolo, Trunks y más.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="IMG/preview.png">
+  <meta property="og:url" content="https://TUUSUARIO.github.io/TUREPO/personajes.html">
+
+  <link rel="icon" href="IMG/favicon.png" type="image/png">
   <link rel="stylesheet" href="CSS/estiloprincipal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">MI SERIE PREFERIDA</h1>
-      <nav>
+      <nav aria-label="Navegación principal">
         <ul class="nav">
           <li><a href="index.html">INICIO</a></li>
           <li><a href="capitulos.html">CAPÍTULOS</a></li>
@@ -21,90 +35,73 @@
     </div>
   </header>
 
-  <main>
-   
+  <main id="contenido" class="container-wide">
     <section>
       <p>Dragon Ball Z es conocido por su elenco icónico de héroes y villanos que marcaron la infancia de millones de personas.</p>
       <p>Cada personaje tiene habilidades únicas, transformaciones sorprendentes y una personalidad que lo hace inolvidable.</p>
     </section>
 
-    
     <ul class="grid-cards">
       <li class="card">
-        <img src="IMG/foto-goku.jpg" alt="Goku" width="280" height="360">
+        <img src="IMG/foto-goku.jpg" alt="Goku" width="280" height="360" loading="lazy">
         <h3>Goku</h3>
         <p>Protagonista Saiyan, defensor de la Tierra y maestro del Kamehameha.</p>
       </li>
       <li class="card">
-        <img src="IMG/foto-vegetta.jpg" alt="Vegeta" width="280" height="360">
+        <img src="IMG/foto-vegetta.jpg" alt="Vegeta" width="280" height="360" loading="lazy">
         <h3>Vegeta</h3>
         <p>Príncipe de los Saiyans, orgulloso y rival eterno de Goku.</p>
       </li>
       <li class="card">
-        <img src="IMG/foto-gohan.jpeg" alt="Gohan" width="280" height="360">
+        <img src="IMG/foto-gohan.jpeg" alt="Gohan" width="280" height="360" loading="lazy">
         <h3>Gohan</h3>
         <p>Hijo de Goku, mezcla de nobleza y gran poder oculto.</p>
       </li>
       <li class="card">
-        <img src="IMG/foto-piccolo.webp" alt="Piccolo" width="280" height="360">
+        <img src="IMG/foto-piccolo.webp" alt="Piccolo" width="280" height="360" loading="lazy">
         <h3>Piccolo</h3>
         <p>Guerrero Namekusei, sabio y mentor de Gohan.</p>
       </li>
       <li class="card">
-        <img src="IMG/foto-trunks.webp" alt="Trunks" width="280" height="360">
+        <img src="IMG/foto-trunks.webp" alt="Trunks" width="280" height="360" loading="lazy">
         <h3>Trunks</h3>
         <p>Hijo de Vegeta y Bulma, viaja en el tiempo para salvar al futuro.</p>
       </li>
     </ul>
 
     <section>
-  <h2>Habilidades y transformaciones</h2>
-  <table class="tabla-personajes">
-    <tr>
-      <th>Personaje</th>
-      <th>Técnica especial</th>
-      <th>Transformaciones</th>
-    </tr>
-    <tr>
-      <td>Goku</td>
-      <td>Kamehameha</td>
-      <td>Super Saiyan 1, 2, 3</td>
-    </tr>
-    <tr>
-      <td>Vegeta</td>
-      <td>Final Flash</td>
-      <td>Super Saiyan, Majin Vegeta</td>
-    </tr>
-    <tr>
-      <td>Gohan</td>
-      <td>Masenko</td>
-      <td>Super Saiyan 1, 2</td>
-    </tr>
-    <tr>
-      <td>Piccolo</td>
-      <td>Makankosappo</td>
-      <td>Fusiones Namekusei</td>
-    </tr>
-    <tr>
-      <td>Trunks</td>
-      <td>Burning Attack</td>
-      <td>Super Saiyan</td>
-    </tr>
-  </table>
-</section>
+      <h2>Habilidades y transformaciones</h2>
+      <table class="tabla-personajes">
+        <tr>
+          <th>Personaje</th>
+          <th>Técnica especial</th>
+          <th>Transformaciones</th>
+        </tr>
+        <tr><td>Goku</td><td>Kamehameha</td><td>Super Saiyan 1, 2, 3</td></tr>
+        <tr><td>Vegeta</td><td>Final Flash</td><td>Super Saiyan, Majin Vegeta</td></tr>
+        <tr><td>Gohan</td><td>Masenko</td><td>Super Saiyan 1, 2</td></tr>
+        <tr><td>Piccolo</td><td>Makankosappo</td><td>Fusiones Namekusei</td></tr>
+        <tr><td>Trunks</td><td>Burning Attack</td><td>Super Saiyan</td></tr>
+      </table>
+    </section>
 
-
-    
     <div style="text-align:center; margin:20px;">
-      <a class="btn" href="https://dragonball.fandom.com/es/wiki/Personajes_de_Dragon_Ball_Z" target="_blank">
+      <a class="btn" href="https://dragonball.fandom.com/es/wiki/Personajes_de_Dragon_Ball_Z" target="_blank" rel="noopener">
         Ver lista completa de personajes
       </a>
     </div>
   </main>
 
   <footer>
-    © 2025 Fan Page Dragon Ball Z – Todos los derechos reservados
+    <nav class="subnav" aria-label="Navegación de pie de página">
+      <a class="btn" href="index.html">Inicio</a>
+      <a class="btn" href="personajes.html">Personajes</a>
+      <a class="btn" href="capitulos.html">Capítulos</a>
+      <a class="btn" href="contacto.html">Contacto</a>
+    </nav>
+    <small>Fan page educativa sin fines de lucro</small>
   </footer>
 </body>
 </html>
+
 

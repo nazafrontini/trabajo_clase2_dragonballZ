@@ -4,14 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fan page Dragon Ball Z</title>
+
+  <!-- SEO básico -->
+  <meta name="description" content="Fan page de Dragon Ball Z: personajes, capítulos, curiosidades y más.">
+  <meta name="theme-color" content="#E63946">
+
+  <!-- Open Graph (para compartir) -->
+  <meta property="og:title" content="Fan Page Dragon Ball Z">
+  <meta property="og:description" content="Personajes, capítulos y contenido para fans.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="IMG/preview.png">
+  <meta property="og:url" content="https://TUUSUARIO.github.io/TUREPO/">
+
+  <!-- Icono -->
+  <link rel="icon" href="IMG/favicon.png" type="image/png">
+
+  <!-- Estilos y fuentes -->
   <link rel="stylesheet" href="CSS/estiloprincipal.css">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <!-- Skip link accesible -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">MI SERIE PREFERIDA</h1>
-      <nav>
+      <nav aria-label="Navegación principal">
         <ul class="nav">
           <li><a href="index.html" class="activo">INICIO</a></li>
           <li><a href="capitulos.html">CAPÍTULOS</a></li>
@@ -22,19 +42,19 @@
     </div>
   </header>
 
-  <main>
-
+  <main id="contenido" class="container-wide">
     <h1 class="main-title">Este soy yo representando mi serie preferida</h1>
+
     <section class="hero">
       <span class="badge">Nuevo</span>
-      <img src="IMG/foto-dragon-ball.png" alt="Foto personal" width="300" height="400">
+      <img src="IMG/foto-dragon-ball.png" alt="Foto personal con temática Dragon Ball Z" width="300" height="400">
       <div>
         <p>Dragon Ball Z es una serie de televisión de ciencia ficción y artes marciales creada por Akira Toriyama.</p>
         <p>Se estrenó en 1989 en Japón y se convirtió en uno de los animes más famosos de la historia.</p>
         <a class="btn" href="capitulos.html">Ver capítulos</a>
         <a class="btn" href="personajes.html">Ver personajes</a>
         <p style="border:none; margin:12px 0 0; padding:0;">
-          <a href="https://es.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank">Un poco más sobre Dragon Ball Z</a>
+          <a href="https://es.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank" rel="noopener">Un poco más sobre Dragon Ball Z</a>
         </p>
       </div>
     </section>
@@ -48,7 +68,6 @@
       </p>
     </section>
 
-    
     <section>
       <h2>SAGAS PRINCIPALES</h2>
       <ul>
@@ -58,23 +77,34 @@
         <li>Saga de Majin Buu</li>
       </ul>
     </section>
+
     <section>
       <h2>Opening de Dragon Ball Z</h2>
       <div class="video-embed">
         <iframe
-          src="https://www.youtube.com/embed/cie7scVUdQE"
+          src="https://www.youtube-nocookie.com/embed/2nYozPLpJRE"
           title="Dragon Ball Z Intro"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
           referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
       </div>
+      <p style="border:none; margin:8px 0 0; padding:0;">
+        Si no se ve, <a href="https://www.youtube.com/watch?v=2nYozPLpJRE" target="_blank" rel="noopener">abrilo en YouTube</a>.
+      </p>
     </section>
   </main>
 
   <footer>
-    © 2025 Fan Page Dragon Ball Z – Todos los derechos reservados
+    <nav class="subnav" aria-label="Navegación de pie de página">
+      <a class="btn" href="index.html">Inicio</a>
+      <a class="btn" href="personajes.html">Personajes</a>
+      <a class="btn" href="capitulos.html">Capítulos</a>
+      <a class="btn" href="contacto.html">Contacto</a>
+    </nav>
+    <small>Fan page educativa sin fines de lucro</small>
   </footer>
 </body>
 </html>
+
 

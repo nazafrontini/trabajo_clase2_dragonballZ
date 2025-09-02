@@ -4,13 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Capítulos Dragon Ball Z</title>
+
+  <meta name="description" content="Selección de capítulos por sagas: Saiyan, Freezer, Cell y Majin Buu.">
+  <meta name="theme-color" content="#E63946">
+  <meta property="og:title" content="DBZ – Capítulos">
+  <meta property="og:description" content="Mini-resúmenes y filtros por saga.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="IMG/preview.png">
+  <meta property="og:url" content="https://TUUSUARIO.github.io/TUREPO/capitulos.html">
+
+  <link rel="icon" href="IMG/favicon.png" type="image/png">
   <link rel="stylesheet" href="CSS/estiloprincipal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">MI SERIE PREFERIDA</h1>
-      <nav>
+      <nav aria-label="Navegación principal">
         <ul class="nav">
           <li><a href="index.html">INICIO</a></li>
           <li><a href="capitulos.html" class="activo">CAPÍTULOS</a></li>
@@ -21,14 +35,12 @@
     </div>
   </header>
 
-  <main>
-    
+  <main id="contenido" class="container-wide">
     <section class="capitulos-intro">
       <h1 class="main-title">Primera temporada</h1>
       <p>Acá vas a encontrar una selección de capítulos de las primeras sagas de Dragon Ball Z. Cada tarjeta tiene una imagen, un mini-resumen y etiquetas de la saga correspondiente.</p>
     </section>
 
-    
     <section>
       <h2>Filtrar por saga</h2>
       <div class="filters">
@@ -40,84 +52,89 @@
       </div>
     </section>
 
-  
     <section>
       <h2>Capítulos</h2>
       <ul class="grid-cards" id="lista-capitulos">
-       
         <li class="card episode-card" data-saga="Saiyan">
           <a href="capitulo-1.html"><strong>Capítulo 1</strong></a>
-          <img src="IMG/dragon-ball-capitulo-1.webp" alt="Capítulo 1" width="280" height="150">
+          <img src="IMG/dragon-ball-capitulo-1.webp" alt="Capítulo 1" width="280" height="150" loading="lazy">
           <p class="episode-desc">Raditz llega a la Tierra y revela los orígenes Saiyan de Goku.</p>
           <div class="tags"><span class="tag">Saiyan</span></div>
         </li>
 
         <li class="card episode-card" data-saga="Saiyan">
           <a href="capitulo-2.html"><strong>Capítulo 2</strong></a>
-          <img src="IMG/dragon-ball-capitulo-2.webp" alt="Capítulo 2" width="280" height="150">
+          <img src="IMG/dragon-ball-capitulo-2.webp" alt="Capítulo 2" width="280" height="150" loading="lazy">
           <p class="episode-desc">Goku y Piccolo unen fuerzas ante una amenaza superior.</p>
           <div class="tags"><span class="tag">Saiyan</span></div>
         </li>
 
         <li class="card episode-card" data-saga="Saiyan">
           <a href="capitulo-3.html"><strong>Capítulo 3</strong></a>
-          <img src="IMG/dragon-ball-capitulo-3.webp" alt="Capítulo 3" width="280" height="150">
+          <img src="IMG/dragon-ball-capitulo-3.webp" alt="Capítulo 3" width="280" height="150" loading="lazy">
           <p class="episode-desc">La batalla inicial contra Raditz pone a prueba sus límites.</p>
           <div class="tags"><span class="tag">Saiyan</span></div>
         </li>
 
-       
         <li class="card episode-card" data-saga="Saiyan">
           <a href="capitulo-4.html"><strong>Capítulo 4</strong></a>
-          <img src="IMG/dragon-ball-capitulo-4.webp" alt="Capítulo 4" width="280" height="150">
+          <img src="IMG/dragon-ball-capitulo-4.webp" alt="Capítulo 4" width="280" height="150" loading="lazy">
           <p class="episode-desc">Se revelan nuevos planes y el peligro que se aproxima a la Tierra.</p>
           <div class="tags"><span class="tag">Saiyan</span></div>
         </li>
 
-     
         <li class="card episode-card" data-saga="Saiyan">
           <a href="capitulo-5.html"><strong>Capítulo 5</strong></a>
-          <img src="IMG/dragon-ball-capitulo-5.webp" alt="Capítulo 5" width="280" height="150">
+          <img src="IMG/dragon-ball-capitulo-5.webp" alt="Capítulo 5" width="280" height="150" loading="lazy">
           <p class="episode-desc">Los héroes deciden entrenar para amenazas aún mayores.</p>
           <div class="tags"><span class="tag">Saiyan</span></div>
         </li>
 
         <li class="card episode-card" data-saga="Freezer">
           <a href="#"><strong>Capítulo X</strong></a>
-          <img src="IMG/foto-saga-freezer.jfif" alt="Capítulo saga Freezer" width="280" height="150">
+          <img src="IMG/foto-saga-freezer.jfif" alt="Capítulo saga Freezer" width="280" height="150" loading="lazy">
           <p class="episode-desc">Rumbo a Namek, búsqueda de las Dragon Balls.</p>
           <div class="tags"><span class="tag">Freezer</span></div>
         </li>
 
         <li class="card episode-card" data-saga="Cell">
           <a href="#"><strong>Capítulo Y</strong></a>
-          <img src="IMG/foto-saga-cell.jfif" alt="Capítulo saga Cell" width="280" height="150">
+          <img src="IMG/foto-saga-cell.jfif" alt="Capítulo saga Cell" width="280" height="150" loading="lazy">
           <p class="episode-desc">Los androides aparecen y el futuro está en juego.</p>
           <div class="tags"><span class="tag">Cell</span></div>
         </li>
 
         <li class="card episode-card" data-saga="Buu">
           <a href="#"><strong>Capítulo Z</strong></a>
-          <img src="IMG/foto-saga-buu.jfif" alt="Capítulo saga Majin Buu" width="280" height="150">
+          <img src="IMG/foto-saga-buu.jfif"Capítulo saga Majin Buu" width="280" height="150" loading="lazy">
           <p class="episode-desc">La amenaza de Majin Buu pone a prueba a los guerreros Z.</p>
           <div class="tags"><span class="tag">Buu</span></div>
         </li>
       </ul>
     </section>
 
-   
-    <nav class="subnav">
+    <nav class="subnav" aria-label="Navegación secundaria">
       <a class="btn" href="#top">Volver arriba</a>
-      <a class="btn" href="https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z_(episodios)" target="_blank">Ver episodios por saga</a>
+      <a class="btn" href="https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z_(episodios)" target="_blank" rel="noopener">Ver episodios por saga</a>
     </nav>
   </main>
 
   <footer>
-    © 2025 Fan Page Dragon Ball Z – Todos los derechos reservados
+    <small>Fan page educativa sin fines de lucro</small>
   </footer>
+
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const saga = btn.dataset.saga;
+        const cards = document.querySelectorAll('.episode-card');
+        cards.forEach(c => {
+          c.style.display = (saga === 'all' || c.dataset.saga === saga) ? '' : 'none';
+        });
+      });
+    });
   </script>
 </body>
 </html>
-
 
  
